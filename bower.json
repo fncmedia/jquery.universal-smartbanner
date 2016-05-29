@@ -1,0 +1,10 @@
+{
+  "name": "jquery.universal-smartbanner",
+  "version": "1.0.0",
+  "homepage": "https://github.com/fncmedia/jquery.universal-smartbanner",
+  "authors": [
+    "Carsten Eilers <carsten.eilers@fncmedia.de>"
+  ],
+  "main": "jquery.ultimate-smartbanner.js",
+  "license": "MIT"
+}
