@@ -171,13 +171,16 @@
     }
 
     , show: function (callback) {
-      var ejqHtml = $('html');
-      ejqHtml.get(0).className = ejqHtml.get(0).className+' smartBanner ';
+      var ejqSmartBanner = $('#smartbanner');
+      ejqSmartBanner.show();
+
       if(callback)  callback();
     }
 
     , hide: function (callback) {
-      $('html').removeClass('smartBanner');
+      var ejqSmartBanner = $('#smartbanner');
+      ejqSmartBanner.hide();
+
       if(callback)  callback();
     }
 
